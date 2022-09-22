@@ -1,0 +1,33 @@
+body {
+	 height: 200px;
+  background-color: blue; 
+  background-image: linear-gradient(to bottom right, blue, white);
+}
+	font-size: 20px;
+}
+
+
+input{
+	height:35px;
+	width:200px;
+	box-sizing: border-box;
+	display: block;
+	margin: 20px 0;
+}
+button {
+	 padding: 15px 20px;
+	 margin: 20px 0;
+	 box-sizing: border-box;
+	 display: block;
+	 width: 200px;
+}	
+@media screen and (max-width: 300px) {
+	input{
+		height:auto;
+		width:auto;
+	}
+	button {
+		height:auto;
+		width:auto;
+	}
+}
